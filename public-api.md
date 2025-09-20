@@ -6,7 +6,7 @@
 # Template
 
 ````markdown
-### Property collection
+### What does it do?
 
 https://api.prod.upland.me/XYZ/
 
