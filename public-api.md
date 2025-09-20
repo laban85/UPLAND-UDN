@@ -1,5 +1,5 @@
 # Property Info
-https://api.prod.upland.me/api/properties/<property-id>
+https://api.prod.upland.me/api/properties/{propertyId}
 
 <details><summary>Response</summary>
 
