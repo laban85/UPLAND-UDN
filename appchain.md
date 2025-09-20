@@ -1,7 +1,8 @@
 # Upland Appchain 
 
 ### Endpoint
-
+* GET:    https://chain-history.upland.me/v2/history/get_actions
+* GET:   https://chain-history.upland.me/v2/history/get_transaction?id=[id]
 
 
 ### Actions
