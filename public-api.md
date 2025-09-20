@@ -166,7 +166,7 @@ https://api.prod.upland.me/api/properties/[propertyId]
 </details>
 
 
-## Based on Lat and Lng
+### Based on Lat and Lng
 
 https://api.prod.upland.me/api/map?north=[lat]&south=[lat]&east=[lng]&west=[lng]
 
@@ -193,7 +193,7 @@ https://api.prod.upland.me/api/map?north=[lat]&south=[lat]&east=[lng]&west=[lng]
 
 # User
 
-## Userinfo
+### Userinfo
 https://api.prod.upland.me/api/profile/[upland_username]
 
 <details><summary>Response</summary>
@@ -282,7 +282,7 @@ https://api.prod.upland.me/api/profile/[upland_username]
 </details>
 
 
-## User Map Assets
+### User Map Assets
 
 https://api.prod.upland.me/nft/assets/outdoor-decors/[upland_username]
 
@@ -388,7 +388,7 @@ https://api.prod.upland.me/nft/assets/outdoor-decors/[upland_username]
 </details>
 
 
-## User Structure Ornaments
+### User Structure Ornaments
 https://api.prod.upland.me/nft/assets/decorations/[upland_username]
 
 <details><summary>Response</summary>
@@ -470,7 +470,7 @@ https://api.prod.upland.me/nft/assets/decorations/[upland_username]
 </details>
 
 
-## User Vechicles
+### User Vechicles
 https://api.prod.upland.me/nft/assets/cars/[upland_username]
 
 <details><summary>Response</summary>
