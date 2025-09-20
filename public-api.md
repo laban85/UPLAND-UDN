@@ -8,7 +8,7 @@
 ````markdown
 ### What does it do?
 
-https://api.prod.upland.me/XYZ/
+GET: https://api.prod.upland.me/XYZ/
 
 <details><summary>Response</summary>
 
@@ -29,7 +29,7 @@ https://api.prod.upland.me/XYZ/
 # Property
 
 ### Based on propertyId
-https://api.prod.upland.me/api/properties/[propertyId]
+GET: https://api.prod.upland.me/api/properties/[propertyId]
 
 <details><summary>Response</summary>
 
@@ -80,7 +80,7 @@ https://api.prod.upland.me/api/properties/[propertyId]
     "is_construction_forbidden": false,
     "ownership_changed_at": "2023-04-05T21:48:06.368Z",
     "customization": {
-        "background_url": "https://static.upland.me/live-events/Customizations/2025/genesis_season/Pirate_Fighters_Genesis25.gif"
+        "background_url": "GET: https://static.upland.me/live-events/Customizations/2025/genesis_season/Pirate_Fighters_Genesis25.gif"
     },
     "building": {
         "propModelID": 375835,
@@ -191,7 +191,7 @@ https://api.prod.upland.me/api/properties/[propertyId]
 
 ### Based on Lat and Lng
 
-https://api.prod.upland.me/api/map?north=[lat]&south=[lat]&east=[lng]&west=[lng]
+GET: https://api.prod.upland.me/api/map?north=[lat]&south=[lat]&east=[lng]&west=[lng]
 
 <details><summary>Response</summary>
 
@@ -215,7 +215,7 @@ https://api.prod.upland.me/api/map?north=[lat]&south=[lat]&east=[lng]&west=[lng]
 
 ### Property collection
 
-https://api.prod.upland.me/api/properties/match/[41759535485743]
+GET: https://api.prod.upland.me/api/properties/match/[41759535485743]
 
 <details><summary>Response</summary>
 
@@ -240,7 +240,7 @@ https://api.prod.upland.me/api/properties/match/[41759535485743]
 # User
 
 ### Userinfo
-https://api.prod.upland.me/api/profile/[upland_username]
+GET: https://api.prod.upland.me/api/profile/[upland_username]
 
 <details><summary>Response</summary>
 
@@ -250,33 +250,33 @@ https://api.prod.upland.me/api/profile/[upland_username]
     "id": "3c9278a0-26aa-11eb-8d6e-5390e4e703f7",
     "avatar": {
         "id": 1085,
-        "image": "https://static.upland.me/avatars/exclusive/laban_v2.svg"
+        "image": "GET: https://static.upland.me/avatars/exclusive/laban_v2.svg"
     },
     "color": {
         "id": 24,
         "color": "#5AA9FF"
     },
-    "avatar_background": "https://static.upland.me/live-events/Customizations/2025/frost_season/XStacks_Mania_avatar_bg_frost25.png",
+    "avatar_background": "GET: https://static.upland.me/live-events/Customizations/2025/frost_season/XStacks_Mania_avatar_bg_frost25.png",
     "collections": [
         {
             "id": 571,
             "name": "Miami Beach",
-            "image": "https://static.upland.me/collections-assets/zu3DSdNQWVhArxgVEpm3NDbTZu4FjYHk-banner.png",
-            "image_thumbnail": "https://static.upland.me/collections-assets/zu3DSdNQWVhArxgVEpm3NDbTZu4FjYHk-thumbnail.png",
+            "image": "GET: https://static.upland.me/collections-assets/zu3DSdNQWVhArxgVEpm3NDbTZu4FjYHk-banner.png",
+            "image_thumbnail": "GET: https://static.upland.me/collections-assets/zu3DSdNQWVhArxgVEpm3NDbTZu4FjYHk-thumbnail.png",
             "city_id": 87
         },
         {
             "id": 358,
             "name": "Highland Park",
-            "image": "https://static.upland.me/collections-assets/bIa3KbhunfNKeMmpoeDAZX1OXIn4jwhp-banner.png",
-            "image_thumbnail": "https://static.upland.me/collections-assets/bIa3KbhunfNKeMmpoeDAZX1OXIn4jwhp-thumbnail.png",
+            "image": "GET: https://static.upland.me/collections-assets/bIa3KbhunfNKeMmpoeDAZX1OXIn4jwhp-banner.png",
+            "image_thumbnail": "GET: https://static.upland.me/collections-assets/bIa3KbhunfNKeMmpoeDAZX1OXIn4jwhp-thumbnail.png",
             "city_id": 40
         },
         {
             "id": 72,
             "name": "Brooklyner",
-            "image": "https://static.upland.me/collections-assets/brooklyner-72-banner.png",
-            "image_thumbnail": "https://static.upland.me/collections-assets/brooklyner-72-thumbnail.png",
+            "image": "GET: https://static.upland.me/collections-assets/brooklyner-72-banner.png",
+            "image_thumbnail": "GET: https://static.upland.me/collections-assets/brooklyner-72-thumbnail.png",
             "city_id": 6
         }
     ],
@@ -294,14 +294,14 @@ https://api.prod.upland.me/api/profile/[upland_username]
     ],
     "badges": [
         {
-            "image": "https://static.upland.me/explorer-badges/Builder.png",
+            "image": "GET: https://static.upland.me/explorer-badges/Builder.png",
             "id": 7,
             "help_type": "badge_builder",
             "name": "Builder",
             "user_id": "3c9278a0-26aa-11eb-8d6e-5390e4e703f7"
         },
         {
-            "image": "https://static.upland.me/explorer-badges/completionist_x2.svg",
+            "image": "GET: https://static.upland.me/explorer-badges/completionist_x2.svg",
             "id": 179,
             "help_type": "completionist_x2",
             "name": "Completionist x2",
@@ -330,7 +330,7 @@ https://api.prod.upland.me/api/profile/[upland_username]
 
 ### User Map Assets
 
-https://api.prod.upland.me/nft/assets/outdoor-decors/[upland_username]
+GET: https://api.prod.upland.me/nft/assets/outdoor-decors/[upland_username]
 
 <details><summary>Response</summary>
 
@@ -435,7 +435,7 @@ https://api.prod.upland.me/nft/assets/outdoor-decors/[upland_username]
 
 
 ### User Structure Ornaments
-https://api.prod.upland.me/nft/assets/decorations/[upland_username]
+GET: https://api.prod.upland.me/nft/assets/decorations/[upland_username]
 
 <details><summary>Response</summary>
 
@@ -517,7 +517,7 @@ https://api.prod.upland.me/nft/assets/decorations/[upland_username]
 
 
 ### User Vechicles
-https://api.prod.upland.me/nft/assets/cars/[upland_username]
+GET: https://api.prod.upland.me/nft/assets/cars/[upland_username]
 
 <details><summary>Response</summary>
 
