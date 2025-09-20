@@ -1,11 +1,11 @@
 # Content
-- [Property Info](#property)
-- [User info](#user)
+- [Property](#property)
+- [User](#user)
 
 
 # Property
 
-## Based on propertyId
+### Based on propertyId
 https://api.prod.upland.me/api/properties/[propertyId]
 
 <details><summary>Response</summary>
