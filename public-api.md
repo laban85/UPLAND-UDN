@@ -5,24 +5,23 @@
 
 # Template
 
-````markdown
-### Name of the Endpoint (e.g., Property Details)
+```markdown
+### Property collection
 
-`https://api.prod.upland.me/endpoint/path/here`
+https://api.prod.upland.me/XYZ/
 
-**Method:** `GET`
-
-**Description:**
-A brief explanation of what this endpoint does and any required parameters.
-
-<details><summary>Example Response</summary>
+<details><summary>Response</summary>
 
 ```json
-{
-  "key": "value",
-  "another_key": 123
-}
+[
+    {
+        "id": 1234,
+        "name": "test"
+    }
+]
+
 ```
+
 </details>
 
 ---
