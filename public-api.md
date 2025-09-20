@@ -5,7 +5,7 @@
 
 # Template
 
-```
+```markdown
 ### Property collection
 
 https://api.prod.upland.me/XYZ/
@@ -23,7 +23,7 @@ https://api.prod.upland.me/XYZ/
 ```
 </details>
 
-```
+---
 
 # Property
 
