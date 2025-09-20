@@ -1,9 +1,9 @@
 # Content
-- [Property Info](#userinfo)
-- [User info](#userinfo)
+- [Property Info](#property)
+- [User info](#user)
 
 
-# Property Info
+# Property
 
 ## Based on propertyId
 https://api.prod.upland.me/api/properties/[propertyId]
@@ -191,7 +191,7 @@ https://api.prod.upland.me/api/map?north=[lat]&south=[lat]&east=[lng]&west=[lng]
 </details>
 
 
-# User details
+# User
 
 ## Userinfo
 https://api.prod.upland.me/api/profile/[upland_username]
@@ -458,6 +458,49 @@ https://api.prod.upland.me/nft/assets/decorations/[upland_username]
             "maxSupply": 383,
             "currentSupply": 383,
             "issuedSupply": 383
+        },
+        "ownerUsername": "laban",
+        "isLocked": false,
+        "isChangingOwnership": false,
+        "activeNftLock": null,
+        "isRestrictedForSwapOffers": false
+    }
+]
+```
+</details>
+
+
+## User Vechicles
+https://api.prod.upland.me/nft/assets/cars/[upland_username]
+
+<details><summary>Response</summary>
+
+```json
+[
+    {
+        "dgoodId": 2487868,
+        "serialNumber": 44,
+        "category": "landvehicle",
+        "mintingEnd": "2022-12-31T07:31:40.000Z",
+        "metadata": {
+            "finishId": 41,
+            "displayName": "2022 MV Motors Series T",
+            "image": "3d-models/cars/1/5/13/41/thumbnail.png",
+            "transactionId": "f3a53350f184f417aa5059ba87841362f02ae6456562847530c98bb7ec2bfdcb",
+            "username": "laban",
+            "isExchangeable": false,
+            "modelUrl": "3d-models/cars/1/5/13/nft-model.gltf",
+            "property": {
+                "id": 78006791711911,
+                "cityName": "Bakersfield",
+                "stateName": "CA",
+                "countryName": "us",
+                "fullAddress": "5904 MIDAS ST"
+            }
+        },
+        "stat": {
+            "maxSupply": 150,
+            "currentSupply": 140
         },
         "ownerUsername": "laban",
         "isLocked": false,
