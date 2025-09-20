@@ -3,7 +3,7 @@ https://api.prod.upland.me/api/properties/<property-id>
 
 <details><summary>Response</summary>
 
-` ` `json
+```json
 {
     "prop_id": 77194422187902,
     "full_address": "5114 3RD AVE",
@@ -155,5 +155,5 @@ https://api.prod.upland.me/api/properties/<property-id>
     },
     "addressWithCityAndState": "5114 3RD AVE, Los Angeles, CA"
 }
-` ` `
+```
 </details>
