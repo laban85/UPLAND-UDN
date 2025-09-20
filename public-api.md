@@ -3,6 +3,28 @@
 - [User](#user)
 
 
+# Template
+
+```
+### Property collection
+
+https://api.prod.upland.me/XYZ/
+
+<details><summary>Response</summary>
+
+```json
+[
+    {
+        "id": 1234,
+        "name": "test"
+    }
+]
+
+```
+</details>
+
+```
+
 # Property
 
 ### Based on propertyId
@@ -189,6 +211,29 @@ https://api.prod.upland.me/api/map?north=[lat]&south=[lat]&east=[lng]&west=[lng]
 ]
 ```
 </details>
+
+### Property collection
+
+https://api.prod.upland.me/api/properties/match/[41759535485743]
+
+<details><summary>Response</summary>
+
+```json
+[
+    {
+        "id": 1621,
+        "name": "World Traveler",
+        "description": "Collection",
+        "category": 1,
+        "yield_boost": 1.3
+    }
+]
+
+```
+</details>
+
+
+
 
 
 # User
