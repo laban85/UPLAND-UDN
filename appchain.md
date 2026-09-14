@@ -28,7 +28,7 @@
 | n42 | |
 | n43 | Start treasure hunt | 
 | n44 | Seen when a user signs up and get his startup bonus. But there is more... |  
-| n45 | | Jailed
+| n45 | | Jailed |
 | n111 | Transfer UPX between two players, via Upland (for fees) |
 | n112 | map asset sold |
 | a32 | Player buys a nft? |
